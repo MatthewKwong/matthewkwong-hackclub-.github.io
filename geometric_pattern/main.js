@@ -9,6 +9,8 @@ function setup() {
 }
 
 function draw() {
+stroke(color(0, 255, 0));
+
   var isShifted = false;
 
   var y = 0;
@@ -31,3 +33,4 @@ function draw() {
     isShifted = !isShifted;
   }
 }
+
